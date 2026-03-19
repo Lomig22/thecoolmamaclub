@@ -36,17 +36,94 @@
             </div>
             <div class="hero-image">
                 <div class="illustration">
-                    <div class="mama-illustration">
-                        <div class="heart heart-1">♥</div>
-                        <div class="heart heart-2">♥</div>
-                        <div class="heart heart-3">♥</div>
-                        <div class="mama-circle">
-                            <span class="mama-emoji">👩‍👧</span>
-                        </div>
-                        <div class="decoration decoration-1"></div>
-                        <div class="decoration decoration-2"></div>
-                        <div class="decoration decoration-3"></div>
-                    </div>
+                    <svg class="mama-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background circle -->
+                        <circle cx="200" cy="200" r="180" fill="white" opacity="0.95"/>
+                        
+                        <!-- Decorative elements -->
+                        <circle class="float-1" cx="60" cy="80" r="15" fill="#FFD966" opacity="0.6"/>
+                        <circle class="float-2" cx="340" cy="100" r="20" fill="#A7D8FF" opacity="0.6"/>
+                        <circle class="float-3" cx="50" cy="300" r="12" fill="#FF8A7A" opacity="0.5"/>
+                        <circle class="float-4" cx="350" cy="280" r="18" fill="#FFD966" opacity="0.5"/>
+                        
+                        <!-- Hearts floating -->
+                        <g class="heart-float-1">
+                            <path d="M80 150 C80 140, 95 135, 95 145 C95 135, 110 140, 110 150 C110 165, 95 175, 95 175 C95 175, 80 165, 80 150Z" fill="#FF8A7A"/>
+                        </g>
+                        <g class="heart-float-2">
+                            <path d="M300 130 C300 122, 312 118, 312 126 C312 118, 324 122, 324 130 C324 142, 312 150, 312 150 C312 150, 300 142, 300 130Z" fill="#FFD966"/>
+                        </g>
+                        <g class="heart-float-3">
+                            <path d="M320 220 C320 214, 329 211, 329 217 C329 211, 338 214, 338 220 C338 229, 329 235, 329 235 C329 235, 320 229, 320 220Z" fill="#A7D8FF"/>
+                        </g>
+                        
+                        <!-- Mama body -->
+                        <ellipse cx="180" cy="340" rx="60" ry="30" fill="#FF8A7A"/>
+                        
+                        <!-- Mama dress -->
+                        <path d="M120 250 Q180 230 180 340 Q180 350 180 340 L120 340 Z" fill="#FF8A7A"/>
+                        <path d="M240 250 Q180 230 180 340 Q180 350 180 340 L240 340 Z" fill="#FF8A7A"/>
+                        <ellipse cx="180" cy="250" rx="60" ry="25" fill="#FF8A7A"/>
+                        
+                        <!-- Mama head -->
+                        <circle cx="180" cy="170" r="55" fill="#FFDAB9"/>
+                        
+                        <!-- Mama hair -->
+                        <ellipse cx="180" cy="130" rx="60" ry="40" fill="#8B4513"/>
+                        <ellipse cx="130" cy="160" rx="15" ry="35" fill="#8B4513"/>
+                        <ellipse cx="230" cy="160" rx="15" ry="35" fill="#8B4513"/>
+                        <ellipse cx="180" cy="115" rx="50" ry="25" fill="#8B4513"/>
+                        
+                        <!-- Mama face -->
+                        <circle cx="160" cy="170" r="5" fill="#4A4A4A"/>
+                        <circle cx="200" cy="170" r="5" fill="#4A4A4A"/>
+                        <path d="M165 190 Q180 205 195 190" stroke="#E67A6A" stroke-width="3" fill="none" stroke-linecap="round"/>
+                        <circle cx="145" cy="180" r="8" fill="#FFB6C1" opacity="0.5"/>
+                        <circle cx="215" cy="180" r="8" fill="#FFB6C1" opacity="0.5"/>
+                        
+                        <!-- Mama arms -->
+                        <path d="M130 260 Q100 280 110 320" stroke="#FFDAB9" stroke-width="20" fill="none" stroke-linecap="round"/>
+                        <path d="M230 260 Q270 270 280 240" stroke="#FFDAB9" stroke-width="20" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Child body -->
+                        <ellipse cx="290" cy="340" rx="35" ry="20" fill="#A7D8FF"/>
+                        <ellipse cx="290" cy="290" rx="30" ry="40" fill="#A7D8FF"/>
+                        
+                        <!-- Child head -->
+                        <circle cx="290" cy="220" r="40" fill="#FFDAB9"/>
+                        
+                        <!-- Child hair -->
+                        <ellipse cx="290" cy="190" rx="35" ry="25" fill="#DEB887"/>
+                        <circle cx="260" cy="200" r="12" fill="#DEB887"/>
+                        <circle cx="320" cy="200" r="12" fill="#DEB887"/>
+                        
+                        <!-- Child face -->
+                        <circle cx="275" cy="220" r="4" fill="#4A4A4A"/>
+                        <circle cx="305" cy="220" r="4" fill="#4A4A4A"/>
+                        <path d="M280 235 Q290 245 300 235" stroke="#E67A6A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                        <circle cx="265" cy="228" r="6" fill="#FFB6C1" opacity="0.5"/>
+                        <circle cx="315" cy="228" r="6" fill="#FFB6C1" opacity="0.5"/>
+                        
+                        <!-- Child arm reaching to mama -->
+                        <path d="M255 280 Q230 270 220 250" stroke="#FFDAB9" stroke-width="14" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Connection hand hold -->
+                        <circle cx="250" cy="255" r="12" fill="#FFDAB9"/>
+                        
+                        <!-- Sparkles -->
+                        <g class="sparkle-1">
+                            <path d="M100 100 L105 110 L100 120 L95 110 Z" fill="#FFD966"/>
+                            <path d="M90 110 L100 105 L110 110 L100 115 Z" fill="#FFD966"/>
+                        </g>
+                        <g class="sparkle-2">
+                            <path d="M330 170 L333 177 L330 184 L327 177 Z" fill="#FF8A7A"/>
+                            <path d="M323 177 L330 174 L337 177 L330 180 Z" fill="#FF8A7A"/>
+                        </g>
+                        <g class="sparkle-3">
+                            <path d="M70 230 L73 237 L70 244 L67 237 Z" fill="#A7D8FF"/>
+                            <path d="M63 237 L70 234 L77 237 L70 240 Z" fill="#A7D8FF"/>
+                        </g>
+                    </svg>
                 </div>
             </div>
         </div>
